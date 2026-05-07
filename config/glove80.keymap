@@ -97,7 +97,7 @@
 // layers
 #define DEFAULT 0
 #define LOWER 1
-#define MAGIC 2
+#define LAYER_MAGIC 2
 #define GAMING 3
 
 
