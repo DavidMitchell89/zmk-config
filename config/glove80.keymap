@@ -188,41 +188,41 @@
         };
     };
 };
-/ {
-    combos {
-        compatible = "zmk,combos";
-
-        combo_periodCmb {
-            key-positions = <POS_LH_T4 POS_LH_C2R4>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
-        };
-
-        combo_JCmb {
-            key-positions = <POS_LH_T4 POS_LH_C5R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
-        };
-
-        combo_KCmb {
-            key-positions = <POS_LH_T4 POS_LH_C4R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
-        };
-
-        combo_MCmb {
-            key-positions = <POS_LH_T4 POS_LH_C3R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
-        };
-
-        combo_ApostropheCmb {
-            key-positions = <POS_LH_T4 POS_LH_C2R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
-        };
-    };
-};
+/* / { */
+/*     combos { */
+/*         compatible = "zmk,combos"; */
+/**/
+/*         combo_periodCmb { */
+/*             key-positions = <POS_LH_T4 POS_LH_C2R4>; */
+/*             bindings = <&kp DOT>; */
+/*             layers = <LAYER_Gaming>; */
+/*         }; */
+/**/
+/*         combo_JCmb { */
+/*             key-positions = <POS_LH_T4 POS_LH_C5R3>; */
+/*             bindings = <&kp DOT>; */
+/*             layers = <LAYER_Gaming>; */
+/*         }; */
+/**/
+/*         combo_KCmb { */
+/*             key-positions = <POS_LH_T4 POS_LH_C4R3>; */
+/*             bindings = <&kp DOT>; */
+/*             layers = <LAYER_Gaming>; */
+/*         }; */
+/**/
+/*         combo_MCmb { */
+/*             key-positions = <POS_LH_T4 POS_LH_C3R3>; */
+/*             bindings = <&kp DOT>; */
+/*             layers = <LAYER_Gaming>; */
+/*         }; */
+/**/
+/*         combo_ApostropheCmb { */
+/*             key-positions = <POS_LH_T4 POS_LH_C2R3>; */
+/*             bindings = <&kp DOT>; */
+/*             layers = <LAYER_Gaming>; */
+/*         }; */
+/*     }; */
+/* }; */
 
 / {
     keymap {
