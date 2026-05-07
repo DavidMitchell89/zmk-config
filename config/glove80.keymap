@@ -97,7 +97,7 @@
 #define DEFAULT 0
 #define LOWER 1
 #define MAGIC 2
-#define FACTORY_TEST 3
+#define GAMING 3
 
 / {
     behaviors {
