@@ -191,34 +191,109 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_periodCmb {
-            key-positions = <POS_LH_T4 POS_LH_C2R4>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
+        Combo_J {
+            bindings = <&kp J>;
+            key-positions = <69 23>;
+            timeout-ms = <50>;
+            layers = <3>;
         };
 
-        combo_JCmb {
-            key-positions = <POS_LH_T4 POS_LH_C5R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
+        K_Combo {
+            bindings = <&kp K>;
+            key-positions = <69 24>;
+            timeout-ms = <50>;
+            layers = <3>;
         };
 
-        combo_KCmb {
-            key-positions = <POS_LH_T4 POS_LH_C4R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
+        M_Combo {
+            bindings = <&kp M>;
+            key-positions = <69 25>;
+            timeout-ms = <50>;
+            layers = <3>;
         };
 
-        combo_MCmb {
-            key-positions = <POS_LH_T4 POS_LH_C3R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
+        Quu {
+            bindings = <&kp SQT>;
+            key-positions = <69 26>;
+            timeout-ms = <50>;
+            layers = <3>;
         };
 
-        combo_ApostropheCmb {
-            key-positions = <POS_LH_T4 POS_LH_C2R3>;
-            bindings = <&kp DOT>;
-            layers = <LAYER_Gaming>;
+        Dash_Combo {
+            bindings = <&kp MINUS>;
+            key-positions = <69 27>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        Y_Combo {
+            bindings = <&kp Y>;
+            key-positions = <69 35>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        P_Combo {
+            bindings = <&kp P>;
+            key-positions = <69 36>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        L_Combo {
+            bindings = <&kp L>;
+            key-positions = <69 37>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        Dot_Combo {
+            bindings = <&kp PERIOD>;
+            key-positions = <69 38>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        Q_Combo {
+            bindings = <&kp Q>;
+            key-positions = <69 39>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        X_Combo {
+            bindings = <&kp X>;
+            key-positions = <69 47>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        B_Combo {
+            bindings = <&kp B>;
+            key-positions = <69 48>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        V_Combo {
+            bindings = <&kp V>;
+            key-positions = <69 49>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        Comma_Combo {
+            bindings = <&kp COMMA>;
+            key-positions = <69 50>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
+
+        Z_Combo {
+            bindings = <&kp Z>;
+            key-positions = <69 51>;
+            timeout-ms = <50>;
+            layers = <3>;
         };
     };
 };
